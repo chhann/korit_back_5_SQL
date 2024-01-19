@@ -25,7 +25,9 @@ from
 	student_tb
 where
 	student_id in (1,2,3);
-    
+
+
+
 truncate table student_tb;
 
 /*
