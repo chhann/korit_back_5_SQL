@@ -13,13 +13,7 @@ FROM
     left outer join product_tb pt on(pt.product_id = prt.product_id)
     left outer join product_size_tb pst on(pst.product_size_id = prt.product_size_id)
 	left outer join product_color_tb pct on(pct.product_color_id = prt.product_color_id);
-
-select
-	*
-from 
-	product_register_view;
-
-
+    
     
 SELECT 
 	prt.product_size_id,
@@ -48,3 +42,9 @@ where
 group by
 	product_size_id,
 	product_size_name;
+    
+	
+    
+
+
+    
